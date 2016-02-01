@@ -10,3 +10,4 @@ This is a test to see if everyone has successfully accessed this repository. Eve
 Emmy Zhang
 Corinne Leopold
 Raj Iyer
+Scott Hester
