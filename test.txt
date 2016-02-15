@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-Test with branching
-=======
-Hi Again Guys
->>>>>>> master
