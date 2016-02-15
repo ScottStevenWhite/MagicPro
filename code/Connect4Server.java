@@ -1,6 +1,10 @@
 import java.net.*;
 import java.io.*;
 import java.util.*;
+<<<<<<< 7ee6aba6734409486cd0e63ca1e371cdb684bce9
+=======
+// Comment
+>>>>>>> Update: added comment to server
 public class Connect4Server implements Runnable {  //after run()  is setup
     // Create an object of the ServerSocket
     ServerSocket server;
