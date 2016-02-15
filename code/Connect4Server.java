@@ -2,7 +2,7 @@ import java.net.*;
 import java.io.*;
 import java.util.*;
 
-public class Connect4Server { //implements Runnable{ after run() is setup
+public class Connect4Server implements Runnable {  //after run()  is setup
     // Create an object of the ServerSocket
     ServerSocket server;
     // Create and Initialize an object of the PrintWriter class
@@ -37,8 +37,19 @@ public class Connect4Server { //implements Runnable{ after run() is setup
         writer.flush();
         server.setReuseAddress(true); 
     }
+    //TODO: Write mathods to read and interpret inputs from client
     
-    public static void main (String[] args) {
+    public void run() {
+        while (true) {
+            try {
+                //TODO: Read Requests and Respond
+            } catch (IOException e) {
+                e.printStackTrace();
+                break;
+            }
+            
+            
+        }
         
     }
     
